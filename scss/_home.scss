@@ -341,9 +341,6 @@
             }
         }
     }
-    .slide-character {
-        display: none;
-    }
     @media(max-width: 1200px) {
         padding: 6rem 0;
     }
@@ -381,6 +378,9 @@
                     }
                 }
             }
+        }
+        .slide-character {
+            margin-top: 4rem;
         }
     }
 }
