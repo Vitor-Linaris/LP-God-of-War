@@ -14,15 +14,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/main.min.css">
 
 </head>
 <body>
     <header>
         <div class="container">
-            <img src="./img/sony.svg" class="sony" alt="Logo Sony">
-            <img src="./img/logo.jpg" class="logo" alt="Logo Gof Of War">
-            <div class="platform">
+            <img src="./img/sony.svg" class="sony" alt="Logo Sony" data-aos="fade-right">
+            <img src="./img/logo.jpg" class="logo" alt="Logo Gof Of War" data-aos="zoom-in">
+            <div class="platform" data-aos="fade-left">
                 <span>Disponivel para</span>
                 <ul>
                     <li>PS4</li>
@@ -34,7 +37,7 @@
 
     <section class="s-hero">
         <div class="container">
-            <div class="left">
+            <div class="left" data-aos="fade-right">
                 <h3 class="subtitle">
                     <img src="./img/bullets.svg" alt="bullet">
                     <span>Lançamento dia 09/11/2022 </span>
@@ -46,7 +49,7 @@
                     <a href="#" target="_blank">Comprar na pré-venda</a>
                 </div>
             </div>
-            <div class="right">
+            <div class="right" data-aos="fade-up">
                 <span>Assista aos trailer</span>
                 <button>
                     <img src="./img/thumbnail.gif" class="thumbnail" alt="thumbnail do Trailer">
@@ -60,7 +63,7 @@
         </div>
     </section>
 
-    <section class="s-info-geral">
+    <section class="s-info-geral" data-aos="fade-up">
         <div class="container">
             <ul>
                 <li>
@@ -93,7 +96,7 @@
 
     <section class="s-story">
         <div class="container">
-            <div class="left">
+            <div class="left" data-aos="fade-right">
                 <h3 class="subtitle">
                     <img src="./img/bullets.svg" alt="">
                     <span>Sony Interactive Entertainment</span>
@@ -105,14 +108,14 @@
                     <p>Do Santa Monica Studio, esta é a sequência da aclamada versão de 2018 de God of War.</p>
                 </div>
             </div>
-            <img src="./img/kratos-atreus.png" class="kratos-atreus" alt="">
+            <img src="./img/kratos-atreus.png" class="kratos-atreus" alt="" data-aos="fade-left">
         </div>
     </section>
 
     <section class="s-character">
         <div class="container">
             <div class="description">
-                <div class="left">
+                <div class="left" data-aos="fade-right">
                     <h3 class="subtitle">
                         <img src="./img/bullets.svg" alt="">
                         <span>Conheça os personsagens</span>
@@ -120,7 +123,7 @@
                     <h2>Toda grande aventura é uma história esperando para ser contada</h2>
                     <p>Reviva o começo da jornada nórdica épica de Kratos e Atreus em Mitos de Midgard. Um alerta para quem não está familiarizado com God of War: spoilers à frente.</p>
                 </div>
-                <div class="right">
+                <div class="right" data-aos="fade-left">
                     <img src="./img/axel.png" alt="">
                     <div class="text">
                         <img src="./img/logo.jpg" alt="">
@@ -128,7 +131,7 @@
                     </div>
                 </div>
             </div>
-            <div class="slide-character">
+            <div class="slide-character" data-aos="fade-up">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="card-character">
@@ -208,6 +211,7 @@
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
